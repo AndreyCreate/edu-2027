@@ -3,176 +3,165 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
-<title>Рада · английский для поступления 2027</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+<meta name="robots" content="noindex,nofollow">
+<title>Рада — английский для поступления 2027</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#127891;</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{
-  --page:#f9f9f7; --surface:#fcfcfb; --card:#ffffff;
-  --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
-  --grid:#e1e0d9; --border:rgba(11,11,11,.10);
-  --acc:#eb6834; --acc-soft:#fdeee7; --acc-deep:#c24a1e;
-  --ok:#1baf7a; --ok-soft:#e6f7f0; --warn:#eda100; --warn-soft:#fff6e0; --info:#2a78d6; --info-soft:#e8f1fc;
+  color-scheme:light;
+  --blue:#BFDDFB; --blue-soft:#DCEBFC; --bl:#2F80ED; --coral:#E8563F;
+  --line:#E6E6E6; --gray:#F5F5F5; --dark:#2B2B2B;
+  --page:#FFFFFF; --surface:#F5F5F5; --card:#FFFFFF;
+  --ink:#111111; --ink2:#3A3A3A; --muted:#6B6B6B;
+  --grid:#E6E6E6; --border:#E6E6E6;
+  --acc:#2F80ED; --acc-soft:#DCEBFC; --acc-deep:#1F5FAE;
+  --ok:#2F80ED; --ok-soft:#F5F5F5; --warn:#6B6B6B; --warn-soft:#F5F5F5; --info:#2F80ED; --info-soft:#DCEBFC;
 }
-@media (prefers-color-scheme: dark){
-  :root{
-    --page:#0d0d0d; --surface:#1a1a19; --card:#1f1f1e;
-    --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
-    --grid:#2c2c2a; --border:rgba(255,255,255,.10);
-    --acc:#d95926; --acc-soft:#2b1c14; --acc-deep:#eb8a5e;
-    --ok:#199e70; --ok-soft:#12261d; --warn:#c98500; --warn-soft:#2a2210; --info:#3987e5; --info-soft:#14202e;
-  }
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--page);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1040px;margin:0 auto;padding:0 18px 80px}
-header.site{padding:36px 0 10px}
-header.site h1{font-size:28px;line-height:1.2;margin:0 0 6px;font-weight:800;letter-spacing:-.02em}
-header.site p{color:var(--ink2);margin:0;font-size:15px}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:22px 0 8px}
-.kpi{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:14px 16px}
-.kpi .l{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:4px}
-.kpi .v{font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
-.kpi .s{font-size:13px;color:var(--ink2);margin-top:4px}
-.kpi.acc{background:var(--acc-soft);border-color:transparent}
-.kpi.acc .v{color:var(--acc-deep)}
-h2{font-size:20px;margin:34px 0 10px;letter-spacing:-.01em}
-h2 small{font-weight:500;color:var(--muted);font-size:14px;margin-left:8px}
-p.note{color:var(--ink2);font-size:14.5px;margin:0 0 12px}
-.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:16px;background:var(--card)}
-table.cmp{border-collapse:collapse;width:100%;min-width:760px;font-size:14px}
-table.cmp th,table.cmp td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--grid);vertical-align:top}
-table.cmp thead th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:var(--surface);position:sticky;top:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#fff;color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.wrap{max-width:1100px;margin:0 auto;padding:0 40px 80px}
+a{color:inherit}
+header.site{padding:34px 0 10px}
+header.site .kick{font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--muted);margin-bottom:18px;line-height:1.5}
+header.site .kick:before{content:"✳ ";color:var(--coral)}
+header.site h1{font-weight:500;font-size:clamp(38px,6.8vw,84px);letter-spacing:-.05em;line-height:.96;margin:0 0 18px}
+header.site h1 u{text-decoration:none;box-shadow:inset 0 -.08em 0 var(--bl)}
+header.site p{color:var(--ink2);margin:0;font-size:17px;max-width:680px;line-height:1.45}
+header.site p:before{content:":: ";font-family:'JetBrains Mono',monospace;color:var(--bl)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:34px 0 8px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}
+.kpi .l{font-family:'JetBrains Mono',monospace;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:12px}
+.kpi .v{font-size:30px;font-weight:500;letter-spacing:-.04em;line-height:1.05;white-space:nowrap}
+.kpi .s{font-size:13.5px;color:var(--ink2);margin-top:10px;line-height:1.45}
+.kpi.acc{background:var(--blue);border-color:transparent}
+.kpi.acc .l{color:#1F4F8A}
+.kpi.acc .s{color:#16375e}
+h2{font-weight:500;font-size:clamp(26px,3.6vw,44px);letter-spacing:-.04em;line-height:1.05;margin:66px 0 16px}
+h2 u{text-decoration:none;box-shadow:inset 0 -.09em 0 var(--bl)}
+h2 small{display:block;font-family:'JetBrains Mono',monospace;font-weight:400;color:var(--muted);font-size:12.5px;margin:0 0 12px;letter-spacing:.02em}
+h3{font-weight:500;font-size:19px;letter-spacing:-.02em;margin:0 0 8px}
+p.note{color:var(--ink2);font-size:15.5px;margin:0 0 16px;max-width:760px}
+p.note:before{content:":: ";font-family:'JetBrains Mono',monospace;color:var(--bl)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:#fff;-webkit-overflow-scrolling:touch}
+table.cmp{border-collapse:collapse;width:100%;min-width:760px;font-size:14.5px}
+table.cmp th,table.cmp td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.cmp thead th{font-family:'JetBrains Mono',monospace;font-size:11.5px;font-weight:400;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:#fff}
 table.cmp tbody tr:last-child td{border-bottom:none}
-table.cmp td:first-child{font-weight:700;position:sticky;left:0;background:var(--card);min-width:170px}
-table.cmp td:first-child span{display:block;font-weight:500;color:var(--muted);font-size:12.5px;margin-top:2px}
-.pill{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12.5px;font-weight:700;white-space:nowrap}
-.pill.hi{background:var(--acc-soft);color:var(--acc-deep)}
-.pill.mid{background:var(--warn-soft);color:#8a5a00}
-.pill.lo{background:var(--ok-soft);color:#0a6b47}
-.pill.none{background:var(--info-soft);color:#1c5cab}
-@media (prefers-color-scheme: dark){.pill.mid{color:#f0b84a}.pill.lo{color:#5fd3a5}.pill.none{color:#86b6ef}}
-b.d{font-variant-numeric:tabular-nums;white-space:nowrap}
-.tl{list-style:none;padding:0;margin:0;border-left:2px solid var(--grid)}
-.tl li{position:relative;padding:0 0 14px 20px;font-size:14.5px}
-.tl li::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--grid)}
-.tl li.exam::before{background:var(--acc)}
-.tl li.gate::before{background:var(--info)}
-.tl li b{font-variant-numeric:tabular-nums}
-.tl li .m{color:var(--muted);font-size:12.5px}
-.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:10px 0}
-.card h3{margin:0 0 6px;font-size:16px}
-.card p{margin:0 0 8px;font-size:14.5px;color:var(--ink2)}
+table.cmp td:first-child{font-weight:500;position:sticky;left:0;background:#fff;min-width:180px}
+table.cmp td:first-child span{display:block;font-family:'JetBrains Mono',monospace;font-weight:400;color:var(--muted);font-size:11.5px;margin-top:5px;line-height:1.45}
+.pill{display:inline-block;padding:5px 12px;border-radius:999px;font-family:'JetBrains Mono',monospace;font-size:12px;white-space:nowrap;background:var(--gray);color:var(--ink2)}
+.pill.hi{background:var(--blue);color:#16375e}
+.pill.mid{background:var(--gray);color:var(--ink2)}
+.pill.lo{background:var(--gray);color:var(--ink2)}
+.pill.none{background:var(--blue-soft);color:#1F4F8A}
+b.d{font-family:'JetBrains Mono',monospace;font-weight:400;font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tl{list-style:none;padding:0;margin:0;border-left:1px solid var(--line)}
+.tl li{position:relative;padding:0 0 20px 22px;font-size:15.5px;color:var(--ink2);line-height:1.5}
+.tl li::before{content:"";position:absolute;left:-5px;top:8px;width:9px;height:9px;border-radius:50%;background:#fff;border:1px solid var(--line)}
+.tl li.exam::before{background:var(--coral);border-color:var(--coral)}
+.tl li.gate::before{background:var(--bl);border-color:var(--bl)}
+.tl li b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
+.tl li .m{font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:11.5px;margin-top:4px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;margin:0}
+.card p{margin:0 0 10px;font-size:15px;color:var(--ink2);line-height:1.5}
 .card p:last-child{margin:0}
-.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
-footer{margin-top:40px;color:var(--muted);font-size:12.5px}
+.plate{background:var(--blue);border-radius:12px;padding:16px 18px;font-family:'JetBrains Mono',monospace;font-size:13px;line-height:1.6;color:#16375e;margin:18px 0}
+.plate b{font-weight:500;color:var(--ink)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+footer{margin-top:60px;background:var(--blue);border-radius:16px;padding:24px;font-family:'JetBrains Mono',monospace;font-size:11.5px;line-height:1.7;color:#16375e}
+@media (max-width:860px){
+  .wrap{padding:0 20px 70px}
+  header.site h1{font-size:11vw}
+  h2{margin:48px 0 14px}
+  table.cmp{min-width:680px}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <header class="site">
-  <h1>Рада · английский для поступления в 2027</h1>
-  <p>Какие баллы по языку требуют вузы, к какому сроку нужен сертификат и когда сдавать IELTS. Данные проверены по официальным сайтам и письмам приёмных комиссий (июль–август 2026). Обновлено 04.09.2026.</p>
+  <div class="kick">Рада &middot; 11 класс &middot; обновлено 17 сентября 2026</div>
+  <h1>Английский<br>под <u>поступление</u></h1>
+  <p>Какой балл требуют вузы, к какому сроку нужен сертификат и когда сдавать IELTS. Список вузов пересобран 17 сентября 2026 под решение «Европа»: Барселона, Роттердам, Маастрихт. Данные по языку и уровню Рады &mdash; от 4 сентября 2026.</p>
 </header>
 
 <div class="kpis">
-  <div class="kpi"><div class="l">Уровень сейчас</div><div class="v">B1</div><div class="s">по эссе ~5.0–5.5 IELTS при структуре на 6.0</div></div>
-  <div class="kpi acc"><div class="l">Цель</div><div class="v">IELTS 6.5</div><div class="s">Academic, in-center; 6.0 открывает Гонконг и Лиссабон</div></div>
-  <div class="kpi"><div class="l">Первая сдача</div><div class="v">декабрь 2026</div><div class="s">Алматы, центр IDP; результат за 1–5 дней</div></div>
-  <div class="kpi"><div class="l">Запасная сдача</div><div class="v">февраль–март 2027</div><div class="s">если декабрь даст 6.0, а нужно 6.5</div></div>
+  <div class="kpi"><div class="l">Уровень сейчас</div><div class="v">B1</div><div class="s">по эссе примерно 5.0&ndash;5.5 IELTS при структуре на 6.0</div></div>
+  <div class="kpi acc"><div class="l">Цель</div><div class="v">IELTS 6.5</div><div class="s">Academic, только в центре. 6.5 требует Роттердам, 6.0 хватает Маастрихту</div></div>
+  <div class="kpi"><div class="l">Первая сдача</div><div class="v">1&ndash;7 дек 2026</div><div class="s">Алматы, центр IDP; результат за 1&ndash;5 дней</div></div>
+  <div class="kpi"><div class="l">Запасная сдача</div><div class="v">февраль &ndash; март 2027</div><div class="s">полная пересдача, не одна секция: Роттердам One Skill Retake не принимает</div></div>
 </div>
 
-<h2>Основной список <small>6 вузов, все программы на английском</small></h2>
-<p class="note">Даты приёма на 2027 год большинство вузов ещё не опубликовали. Там, где стоит «~», указан прошлогодний график.</p>
+<h2>Три программы <small>все на английском, решение от 12 сентября 2026</small></h2>
+<p class="note">Проверено по официальным страницам вузов 17 сентября 2026. Где вуз ещё не опубликовал цикл 2027/28, стоит календарь текущего цикла с пометкой.</p>
 <div class="tablewrap">
 <table class="cmp">
 <thead><tr>
-  <th>Вуз · программа</th>
+  <th>Вуз &middot; программа</th>
   <th>Английский: минимум</th>
   <th>Другие требования</th>
-  <th>Окно подачи (набор 2027)</th>
+  <th>Окно подачи, набор 2027</th>
   <th>Когда нужен сертификат</th>
 </tr></thead>
 <tbody>
 <tr>
-  <td>Erasmus University Rotterdam<span>IBACS · Роттердам · №1 в рейтинге Рады</span></td>
-  <td><span class="pill hi">IELTS 6.5</span><br>или TOEFL 90. Только in-center, онлайн-версии не принимают</td>
-  <td>Аттестат РФ принимается напрямую, без foundation year (подтверждено письмом приёмной 14.07). Математика до последнего класса</td>
-  <td>Studielink с 01.10.2026; заявка non-EEA до <b class="d">01.04.2027</b></td>
-  <td>До <b class="d">01.05.2027</b> — заявку можно подать раньше, балл донести</td>
+  <td>Erasmus University Rotterdam<span>IBACS &middot; Роттердам &middot; верхняя планка по языку</span></td>
+  <td><span class="pill hi">IELTS 6.5</span><br>overall, минимумов по секциям нет. Или TOEFL iBT 90, Cambridge 180, PTE 70. <b>One Skill Retake не принимают</b> &mdash; дословно на странице вуза. IELTS Online и TOEFL Home тоже нет</td>
+  <td>Российский аттестат в официальном списке дипломов EUR, без foundation. Открыт вопрос про вступительный экзамен по математике: два документа вуза противоречат друг другу</td>
+  <td>Studielink с 1 октября 2026; заявка non-EEA до <b class="d">1 апреля 2027</b></td>
+  <td>До <b class="d">1 мая 2027</b>. Заявку можно подать раньше, балл донести</td>
 </tr>
 <tr>
-  <td>Lingnan University<span>BA Cultural Studies · Гонконг</span></td>
-  <td><span class="pill mid">IELTS 6.0</span><br>One Skill Retake принимается (можно пересдать одну секцию)</td>
-  <td>Аттестат + ЕГЭ, рассмотрение индивидуальное. Желательны Personal Statement, CV, рекомендации, school reports. Стипендия до полной — автоматически по оценкам</td>
-  <td>Портал ~09.10.2026 → <b class="d">30.06.2027</b>, rolling: чем раньше, тем лучше</td>
-  <td>Вместе с заявкой. Реалистично — январь–февраль 2027</td>
+  <td>Maastricht University<span>BA Arts and Culture &middot; Маастрихт</span></td>
+  <td><span class="pill mid">IELTS 6.0</span><br>по разбору 10 сентября: 6.0 или TOEFL 80. Официальная страница языковых требований 17 сентября недоступна &mdash; цифру <b>надо подтвердить письмом</b>. Про One Skill Retake данных нет</td>
+  <td>Средний балл аттестата <b>выше 4,50</b> за 11 класс &mdash; тогда напрямую. Иначе плюс первый курс российского вуза. Foundation университет не принимает вообще</td>
+  <td>Studielink с 1 октября 2026; дедлайн для визовых студентов <b class="d">1 апреля 2027</b>, 23:59 CET</td>
+  <td>К подаче, то есть балл нужен к марту 2027</td>
 </tr>
 <tr>
-  <td>CUHK<span>BA Cultural Management · Гонконг</span></td>
-  <td><span class="pill mid">IELTS 6.0</span><br>или TOEFL 80. Строго: без One Skill Retake, без IELTS Online. Требования 2027 «subject to review»</td>
-  <td>Средний балл аттестата <b>4.5 из 5</b> + «рекомендованы высокие баллы ЕГЭ». Personal Statement, возможно интервью</td>
-  <td>Regular Round <b class="d">~08.01.2027</b> (Advance Offer ~середина ноября 2026)</td>
-  <td>К подаче — то есть балл нужен уже в <b>декабре 2026</b></td>
+  <td>Maastricht University<span>BSc Global Studies &middot; запасная</span></td>
+  <td><span class="pill mid">IELTS 6.0</span><br>требования того же факультета</td>
+  <td>Тот же порог 4,50. Плюс отбор: мотивационное письмо до 600 слов и эссе до 400 слов</td>
+  <td><b class="d">1 апреля 2027</b></td>
+  <td>К подаче</td>
 </tr>
 <tr>
-  <td>CEU Vienna<span>BA Culture, Politics and Society · Вена</span></td>
-  <td><span class="pill hi">IELTS 6.5</span><br>или TOEFL 88, Duolingo 120</td>
-  <td>SAT не нужен. Эссе 500 слов, мотивационное письмо до 300 слов, CV, рекомендация. Стипендия до 50% — только в Round 1–2</td>
-  <td>Round 1: 01.09–<b class="d">15.10.2026</b> · Round 2: <b class="d">02.02.2027</b> · Round 3: 15.04.2027</td>
-  <td>Round 1 нереален по языку (6.5 за 6 недель). Цель — Round 2: балл к <b>концу января 2027</b></td>
-</tr>
-<tr>
-  <td>Iscte Lisbon<span>BA International Studies · Лиссабон</span></td>
-  <td><span class="pill lo">B1</span><br>по письму приёмной 13.07 — самый низкий порог в списке; IELTS формально не обязателен</td>
-  <td>Аттестат РФ напрямую: 60% средний балл + 40% профильные предметы, без экзаменов вуза</td>
-  <td>1-й раунд Fenix+ <b class="d">~декабрь 2026</b></td>
-  <td>Любое подтверждение B1–B2 к подаче; свежий IELTS 6.0 закрывает вопрос с запасом</td>
-</tr>
-<tr>
-  <td>UPF Barcelona<span>BA Global Studies · Барселона</span></td>
-  <td><span class="pill none">не нужен</span><br>«advisable B2», сертификат не требуется</td>
-  <td>Только аттестат с homologación (признание в Испании, занимает 6–12 месяцев). Вступительных экзаменов нет. 70 мест, из них 30 для non-EU</td>
-  <td>Portal d'Accés <b class="d">~02–26.06.2027</b>. Homologación запускать <b>осенью 2026</b></td>
-  <td>Не требуется</td>
+  <td>UPF Barcelona<span>BA Global Studies &middot; Барселона</span></td>
+  <td><span class="pill none">под вопросом</span><br>на странице программы &mdash; рекомендация B2 без сертификата. Отдельно на сайте найдена строка IELTS 6.0 / TOEFL 87 для абитуриентов не из ЕС. Считаем, что сертификат нужен, пока приёмная не ответит</td>
+  <td>Аттестат с homologación; принимают расписку о её подаче. Балл доступа зафиксирован = 5. Вступительных экзаменов нет. 30 мест для стран вне ЕС</td>
+  <td>Portal d'accés Каталонии, ориентировочно <b class="d">2&ndash;26 июня 2027</b>. Homologación запускать <b>осенью 2026</b></td>
+  <td>К подаче, июнь 2027 &mdash; декабрьского результата хватит с запасом</td>
 </tr>
 </tbody>
 </table>
 </div>
 
-<h2>Запасные варианты <small>в рейтинг не входят</small></h2>
-<div class="tablewrap">
-<table class="cmp" style="min-width:640px">
-<thead><tr><th>Вуз</th><th>Английский: минимум</th><th>Заметки</th><th>Окно подачи</th></tr></thead>
-<tbody>
-<tr><td>Aalto University<span>Design and Media · Хельсинки</span></td><td><span class="pill hi">IELTS 6.5</span></td><td>Без портфолио. Excellence Scholarship до 100%. При семейном финском ВНЖ, вероятно, без tuition — нужно письменное подтверждение Migri и приёмной</td><td><b class="d">07–22.01.2027</b> — балл нужен к 22.01</td></tr>
-<tr><td>Yonsei University UIC<span>Culture &amp; Design Management · Сеул</span></td><td><span class="pill none">без минимума</span></td><td>Всё на английском. Merit-стипендия 30–100%</td><td>Fall 2027 — март 2027</td></tr>
-<tr><td>Ewha Womans University<span>Scranton DIS · Сеул</span></td><td><span class="pill mid">IELTS 6.0</span></td><td>—</td><td>весна 2027</td></tr>
-<tr><td>Kyung Hee University<span>KIC · Йонъин</span></td><td><span class="pill lo">IELTS 5.5</span></td><td>Кампус за городом</td><td>весна 2027</td></tr>
-<tr><td style="text-decoration:line-through;color:var(--muted)">Sophia University<span>Токио</span></td><td>—</td><td>Исключена 04.08.2026: обязателен SAT, ЕГЭ не принимают</td><td>—</td></tr>
-</tbody>
-</table>
-</div>
+<div class="plate"><b>Что это значит для подготовки.</b> Целимся в 6.5 одной сдачей: это планка Роттердама, и она закрывает всех остальных. Пересдача одной секции запасным планом быть не может &mdash; Роттердам её не принимает письменно, Маастрихт и UPF про неё молчат. Запасной вариант один: полная пересдача в феврале или марте 2027, до дедлайна 1 апреля.</div>
 
-<h2>Календарь <small>сентябрь 2026 → июнь 2027</small></h2>
+<h2>Азия и Финляндия <small>сняты 12 сентября 2026</small></h2>
+<p class="note">Рада выбрала Европу. Гонконг (Lingnan, CUHK, HKU), Япония, Корея, Финляндия и Вена из работы выведены. Полные разборы по ним лежат в архиве на <a href="../">основной странице</a> &mdash; ничего не удалено.</p>
+
+<h2>Календарь <small>сентябрь 2026 &rarr; сентябрь 2027</small></h2>
 <div class="grid2">
 <div>
 <ul class="tl">
-  <li><b>Сентябрь–ноябрь 2026</b> — английский по плану, регистрация на IELTS в Алматы на декабрь. Старт homologación для UPF.<div class="m">ielts.idp.com/kazakhstan · ~€185–210</div></li>
-  <li><b>01.10.2026</b> — открывается Studielink (Erasmus); <b>~09.10</b> — портал Lingnan.</li>
-  <li class="exam"><b>Декабрь 2026 — IELTS, попытка 1</b>. Алматы, IDP, computer-delivered. Результат за 1–5 дней. Открывается 1-й раунд Iscte.</li>
-  <li class="gate"><b>~08.01.2027</b> — CUHK Regular Round: нужен 6.0.</li>
-  <li class="gate"><b>22.01.2027</b> — Aalto (если Финляндия в игре): нужен 6.5.</li>
-  <li class="gate"><b>02.02.2027</b> — CEU Round 2: нужен 6.5.</li>
+  <li><b>Сентябрь &ndash; ноябрь 2026</b> &mdash; английский по плану. Проверить срок загранпаспорта: он должен действовать ещё два года после теста. Запустить homologación аттестата для Испании.<div class="m">ielts.kz &middot; 110 250 &#8376; &asymp; 190 &euro;</div></li>
+  <li><b>1 октября 2026</b> &mdash; открывается Studielink, заводим заявки в Роттердам и Маастрихт.</li>
+  <li><b>Октябрь 2026</b> &mdash; забронировать и оплатить IELTS на 1&ndash;7 декабря, Алматы, Academic, на компьютере. Подписать Consent Form for Minors.</li>
+  <li class="exam"><b>1&ndash;7 декабря 2026 &mdash; IELTS, попытка 1.</b> Результат за 1&ndash;5 дней.</li>
 </ul>
 </div>
 <div>
 <ul class="tl">
-  <li class="exam"><b>Февраль–март 2027 — IELTS, попытка 2</b>, если в декабре 6.0, а для Erasmus/CEU нужен 6.5. Для Lingnan достаточно пересдать одну секцию.</li>
-  <li class="gate"><b>01.04.2027</b> — заявка в Erasmus; <b>01.05.2027</b> — сертификат в Erasmus.</li>
-  <li class="gate"><b>02–26.06.2027</b> — подача в UPF; <b>30.06.2027</b> — закрытие Lingnan.</li>
-  <li><b>Июнь 2027</b> — ЕГЭ и аттестат. Сразу после — документы в Гонконг и расписка homologación в UPF.</li>
+  <li class="exam"><b>Февраль &ndash; март 2027 &mdash; IELTS, попытка 2</b>, если в декабре вышло меньше 6.5. Только полная пересдача. Крайняя разумная дата &mdash; конец марта.</li>
+  <li class="gate"><b>1 апреля 2027</b> &mdash; дедлайн подачи в Роттердам и Маастрихт для тех, кому нужна виза.</li>
+  <li class="gate"><b>1 мая 2027</b> &mdash; крайний срок сертификата для Роттердама.</li>
+  <li><b>Июнь 2027</b> &mdash; аттестат. Сразу после &mdash; homologación и подача в UPF через Portal d'accés.</li>
+  <li><b>Сентябрь 2027</b> &mdash; старт учёбы.</li>
 </ul>
 </div>
 </div>
@@ -198,7 +187,10 @@ footer{margin-top:40px;color:var(--muted);font-size:12.5px}
 </div>
 </div>
 
-<footer>Источники: официальные страницы приёма Erasmus (eur.nl), Lingnan (ln.edu.hk), CUHK (admission.cuhk.edu.hk), CEU (ceu.edu), Iscte (iscte-iul.pt), UPF (upf.edu), Aalto (aalto.fi), Yonsei/Ewha/Kyung Hee; письма приёмных Erasmus 14.07.2026, Lingnan 13.07.2026, Iscte 13.07.2026, Sophia 03.08.2026. Даты набора 2027, помеченные «~», — экстраполяция прошлогоднего цикла.</footer>
+<footer>
+Источники: официальные страницы приёма и цен Erasmus University Rotterdam (eur.nl), Maastricht University (maastrichtuniversity.nl), UPF Barcelona (upf.edu, через официальные архивные копии &mdash; живой сайт закрыт бот-защитой), ielts.kz и ielts.org. Всё по трём программам сверено 17 сентября 2026; разбор уровня Рады &mdash; от 4 сентября 2026.<br><br>
+Не подтверждено и ждёт ответа приёмных: точный порог IELTS у Maastricht (страница языковых требований недоступна), нужен ли сертификат английского для UPF, вступительный экзамен по математике для IBACS. Полный список вопросов &mdash; в разделе 07 на <a href="../">основной странице</a>.
+</footer>
 
 </div>
 </body>
